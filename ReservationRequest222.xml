@@ -1,0 +1,126 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:univ="http://www.travelport.com/schema/universal_v32_0" xmlns:com="http://www.travelport.com/schema/common_v32_0" xmlns:air="http://www.travelport.com/schema/air_v32_0">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<univ:AirCreateReservationReq xmlns:air="http://www.travelport.com/schema/air_v32_0" 
+
+                xmlns:common_v32_0="http://www.travelport.com/schema/common_v32_0"
+
+                xmlns:univ="http://www.travelport.com/schema/universal_v32_0" 
+
+                xmlns:com="http://www.travelport.com/schema/common_v32_0"
+
+        AuthorizedBy="user" RetainReservation="None" TargetBranch="P2721018"
+
+        TraceId="1f01d4fc93d28f56c815663101c2e13c">
+			<com:BillingPointOfSaleInfo xmlns:com="http://www.travelport.com/schema/common_v32_0" OriginApplication="UAPI"/>
+			<com:BookingTraveler xmlns:com="http://www.travelport.com/schema/common_v32_0" Gender="M" Key="1" TravelerType="ADT">
+				<com:BookingTravelerName First="Test2" Last="Test" Prefix="1"/>
+				<com:Email EmailID="cdharshans@gmail.com" Type="Home"/>
+			</com:BookingTraveler>
+			<com:BookingTraveler xmlns:com="http://www.travelport.com/schema/common_v32_0" Gender="M" Key="2" TravelerType="ADT">
+				<com:BookingTravelerName First="sdfs" Last="rewr" Prefix="2"/>
+			</com:BookingTraveler>
+			<com:BookingTraveler xmlns:com="http://www.travelport.com/schema/common_v32_0" Gender="M" Key="3" TravelerType="CNN">
+				<com:BookingTravelerName First="df" Last="child" Prefix="1"/>
+				<com:NameRemark>
+
+					<com:RemarkData>P-C2.0371661106610084</com:RemarkData>
+
+				</com:NameRemark>
+			</com:BookingTraveler>
+			<com:BookingTraveler xmlns:com="http://www.travelport.com/schema/common_v32_0" Gender="M" Key="4" TravelerType="CNN">
+				<com:BookingTravelerName First="dfds" Last="dff" Prefix="2"/>
+				<com:NameRemark>
+
+					<com:RemarkData>P-C2.0371661106610084</com:RemarkData>
+
+				</com:NameRemark>
+			</com:BookingTraveler>
+			<com:BookingTraveler xmlns:com="http://www.travelport.com/schema/common_v32_0" Gender="M" Key="5" TravelerType="INF">
+				<com:BookingTravelerName First="sdfdf" Last="adad" Prefix="1"/>
+				<com:NameRemark>
+
+					<com:RemarkData>16MAY17</com:RemarkData>
+
+				</com:NameRemark>
+			</com:BookingTraveler>
+			<com:BookingTraveler xmlns:com="http://www.travelport.com/schema/common_v32_0" Gender="M" Key="6" TravelerType="INF">
+				<com:BookingTravelerName First="fdsf" Last="sfdsf" Prefix=""/>
+				<com:NameRemark>
+
+					<com:RemarkData>16MAY17</com:RemarkData>
+
+				</com:NameRemark>
+			</com:BookingTraveler>
+			<com:ContinuityCheckOverride Key="Blanks">Blanks</com:ContinuityCheckOverride>
+			<com:AgencyContactInfo>
+				<com:PhoneNumber Type="Agency" CountryCode="0094" Number="0770885997" Location="DEL" AreaCode="11" Text="ITQ INDIA"/>
+			</com:AgencyContactInfo>
+			<com:FormOfPayment xmlns:com="http://www.travelport.com/schema/common_v32_0" Key="RjEyMDE3MDYyNTE0Mzc0Ng==" Type="Cash"/>
+			<air:AirPricingSolution  ApproximateBasePrice="LKR69800" ApproximateTaxes="LKR50654" ApproximateTotalPrice="LKR120454" BasePrice="LKR69800" Key="QVBTMjAxNzA2MjUxNDM3NDY=" QuoteDate="2017-06-25"  Taxes="LKR50654" TotalPrice="LKR120454">
+				<air:AirSegment ArrivalTime="2017-06-30T12:10:00.000+07:00" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" Carrier="UL" ChangeOfPlane="false" ClassOfService="V" DepartureTime="2017-06-30T07:10:00.000+05:30" Destination="BKK" Distance="1485" Equipment="333" FlightNumber="882" FlightTime="210" Group="0" Key="djwdWzBAAA/BDWiKBCAAAA==" LinkAvailability="true" OptionalServicesIndicator="true" Origin="CMB" ParticipantLevel="Secure Sell"  ProviderCode="1G"  TravelTime="210">
+					<air:FlightDetails  ArrivalTime="2017-06-30T12:10:00.000+07:00" DepartureTime="2017-06-30T07:10:00.000+05:30" Destination="BKK"  Distance="1485" FlightTime="210" Key="djwdWzBAAA/BEWiKBCAAAA=="  Origin="CMB" TravelTime="210"/>
+				</air:AirSegment>
+				<air:AirPricingInfo ApproximateBasePrice="LKR16600" ApproximateTaxes="LKR12549" ApproximateTotalPrice="LKR29149" BasePrice="LKR16600"  ETicketability="Yes" IncludesVAT="false" Key="djwdWzBAAA/BGWiKBCAAAA==" LatestTicketingTime="2017-06-30T23:59:00.000+05:30" PlatingCarrier="UL" PricingMethod="Guaranteed" ProviderCode="1G" Taxes="LKR12549" TotalPrice="LKR29149">
+					<air:FareInfo Amount="LKR16600" DepartureDate="2017-06-30" Destination="BKK" EffectiveDate="2017-06-25T14:34:00.000+05:30" FareBasis="VOWLK" Key="djwdWzBAAA/BLWiKBCAAAA==" Origin="CMB" PassengerTypeCode="ADT" >
+						<common_v32_0:Endorsement Value="NON-REF/NON-END"/>
+						<air:FareRuleKey FareInfoRef="djwdWzBAAA/BLWiKBCAAAA==" ProviderCode="1G">6UUVoSldxwg+pNZKjXuuyMbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA4ewIagLRfJ8M3ExqSoG053p4wIkM7kbX9h2A/ixL0RAQu0ZscBMSQ7/yqZm8ZlXA+O35X6j1Pc079sWv/iKjEaF/oTXxxF6MeJYtF79PC3YfoLT9JoAKrO7eP3a4bhHZIJlPxU65opOCkJQE184nnbg2BMJ0qOmdTyy/Q52QOiIifrDXdtJsT+i8EcXiQ3ArvwBShF29N4Sv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx8Qxibp/OJehpo2LrM59tO1jp8ZENljzx72lVAJ3nO/P0sHN2dkjrEAFQD0tq7KEuGqiZzrNCTg7rlIS9RoSuzN</air:FareRuleKey>
+					</air:FareInfo>
+					<air:BookingInfo BookingCode="V" 
+
+                    CabinClass="Economy" 
+
+                        FareInfoRef="djwdWzBAAA/BLWiKBCAAAA=="
+
+                        SegmentRef="djwdWzBAAA/BDWiKBCAAAA=="/>
+					<air:TaxInfo Amount="LKR7000" Category="LK" Key="djwdWzBAAA/BHWiKBCAAAA=="/>
+					<air:TaxInfo Amount="LKR160" Category="E7" Key="djwdWzBAAA/BIWiKBCAAAA=="/>
+					<air:TaxInfo Amount="LKR69" Category="G8" Key="djwdWzBAAA/BJWiKBCAAAA=="/>
+					<air:TaxInfo Amount="LKR5320" Category="YQ" Key="djwdWzBAAA/BKWiKBCAAAA=="/>
+					<air:FareCalc>CMB UL BKK 109.46VOWLK NUC109.46END ROE151.642</air:FareCalc>
+					<air:PassengerType  Code="ADT"  BookingTravelerRef="1"  />
+					<air:PassengerType  Code="ADT"  BookingTravelerRef="2"  />
+				</air:AirPricingInfo>
+				<air:AirPricingInfo ApproximateBasePrice="LKR16600" ApproximateTaxes="LKR12549" ApproximateTotalPrice="LKR29149" BasePrice="LKR16600"  ETicketability="Yes" IncludesVAT="false" Key="djwdWzBAAA/BPWiKBCAAAA==" LatestTicketingTime="2017-06-30T23:59:00.000+05:30" PlatingCarrier="UL" PricingMethod="Guaranteed" ProviderCode="1G" Taxes="LKR12549" TotalPrice="LKR29149">
+					<air:FareInfo Amount="LKR16600" DepartureDate="2017-06-30" Destination="BKK" EffectiveDate="2017-06-25T14:34:00.000+05:30" FareBasis="VOWLK" Key="djwdWzBAAA/BUWiKBCAAAA==" Origin="CMB" PassengerTypeCode="ADT" >
+						<common_v32_0:Endorsement Value="NON-REF/NON-END"/>
+						<air:FareRuleKey FareInfoRef="djwdWzBAAA/BUWiKBCAAAA==" ProviderCode="1G">6UUVoSldxwg+pNZKjXuuyMbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA4ewIagLRfJ8M3ExqSoG053p4wIkM7kbX9h2A/ixL0RAQu0ZscBMSQ7/yqZm8ZlXA+O35X6j1Pc079sWv/iKjEaF/oTXxxF6MeJYtF79PC3Y84PrlTL+yY27eP3a4bhHZIJlPxU65opOCkJQE184nnbg2BMJ0qOmdTyy/Q52QOiIifrDXdtJsT+QktkDLKEOIvwBShF29N4Sv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx8Qxibp/OJehpo2LrM59tO1jp8ZENljzx72lVAJ3nO/P0sHN2dkjrEAFQD0tq7KEuGqiZzrNCTg7rlIS9RoSuzN</air:FareRuleKey>
+					</air:FareInfo>
+					<air:BookingInfo BookingCode="V" 
+
+                    CabinClass="Economy" 
+
+                        FareInfoRef="djwdWzBAAA/BUWiKBCAAAA=="
+
+                        SegmentRef="djwdWzBAAA/BDWiKBCAAAA=="/>
+					<air:TaxInfo Amount="LKR7000" Category="LK" Key="djwdWzBAAA/BQWiKBCAAAA=="/>
+					<air:TaxInfo Amount="LKR160" Category="E7" Key="djwdWzBAAA/BRWiKBCAAAA=="/>
+					<air:TaxInfo Amount="LKR69" Category="G8" Key="djwdWzBAAA/BSWiKBCAAAA=="/>
+					<air:TaxInfo Amount="LKR5320" Category="YQ" Key="djwdWzBAAA/BTWiKBCAAAA=="/>
+					<air:FareCalc>CMB UL BKK 109.46VOWLK NUC109.46END ROE151.642</air:FareCalc>
+					<air:PassengerType  Code="CNN"  BookingTravelerRef="3"  />
+					<air:PassengerType  Code="CNN"  BookingTravelerRef="4"  />
+				</air:AirPricingInfo>
+				<air:AirPricingInfo ApproximateBasePrice="LKR1700" ApproximateTaxes="LKR229" ApproximateTotalPrice="LKR1929" BasePrice="LKR1700"  ETicketability="Yes" IncludesVAT="false" Key="djwdWzBAAA/BYWiKBCAAAA==" LatestTicketingTime="2017-06-30T23:59:00.000+05:30" PlatingCarrier="UL" PricingMethod="Guaranteed" ProviderCode="1G" Taxes="LKR229" TotalPrice="LKR1929">
+					<air:FareInfo Amount="LKR1700" DepartureDate="2017-06-30" Destination="BKK" EffectiveDate="2017-06-25T14:34:00.000+05:30" FareBasis="VOWLK" Key="djwdWzBAAA/BbWiKBCAAAA==" Origin="CMB" PassengerTypeCode="INF" >
+						<common_v32_0:Endorsement Value="NON-REF/NON-END"/>
+						<air:FareRuleKey FareInfoRef="djwdWzBAAA/BbWiKBCAAAA==" ProviderCode="1G">6UUVoSldxwg+pNZKjXuuyMbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA4ewIagLRfJ8M3ExqSoG053p4wIkM7kbX7HFeud1k2GNVCulqMwbpNYRHrzWZukgtn4zsDCoQFCZqtvXx58y8Mrq/20RpEmAXlby9IE1rxlSXbR6WXULbbMXV1oPgUILB66cW4+txcdRWSdHfWAsnTuAdcY0m0a4yk4nKb2G5mOFCw9Aa8CXg0EbV1TO6jFDdL+F729rtUMfv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx80GqQ2wgDK/01BlpTwyo+r9GjARZYw7j/TROTkGAG0MT5U2omo+wXxW1vHO2e8BZ7cF7TvWtaxD2d9x2X4bptQ</air:FareRuleKey>
+					</air:FareInfo>
+					<air:BookingInfo BookingCode="V" 
+
+                    CabinClass="Economy" 
+
+                        FareInfoRef="djwdWzBAAA/BbWiKBCAAAA=="
+
+                        SegmentRef="djwdWzBAAA/BDWiKBCAAAA=="/>
+					<air:TaxInfo Amount="LKR160" Category="E7" Key="djwdWzBAAA/BZWiKBCAAAA=="/>
+					<air:TaxInfo Amount="LKR69" Category="G8" Key="djwdWzBAAA/BaWiKBCAAAA=="/>
+					<air:FareCalc>CMB UL BKK 10.94VOWLKIN10 NUC10.94END ROE151.642</air:FareCalc>
+					<air:PassengerType  Code="INF"  BookingTravelerRef="5"  />
+					<air:PassengerType  Code="INF"  BookingTravelerRef="6"  />
+				</air:AirPricingInfo>
+			</air:AirPricingSolution>
+			<com:ActionStatus xmlns:com="http://www.travelport.com/schema/common_v32_0" ProviderCode="1G" TicketDate="2017-06-30T23:59:00.000+05:30" Type="TAW" />
+		</univ:AirCreateReservationReq>
+	</soapenv:Body>
+</soapenv:Envelope>
